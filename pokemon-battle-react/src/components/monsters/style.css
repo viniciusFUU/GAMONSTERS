@@ -1,0 +1,72 @@
+h2{
+    margin: 0;
+    padding: 2px;
+}
+
+.monster-form{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aqua;
+}
+
+.monster-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.monster-div{
+    margin: 5px;
+}
+
+.monster-div label{
+    margin: 5px;
+    padding-right: 3px;
+}
+
+.monster-div input{
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid aqua;
+}
+
+.monster-div-select{
+    display: flex;
+}
+
+.option{
+    color: aqua;
+}
+
+.monster-div select{
+    width: 85%;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background-color: black; /* essa aqui pode melhorar o contraste */
+    color: aqua;
+}
+
+.monster-form button {
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+.monster-form button:hover {
+    border: 1px solid aqua;
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.3s;
+}
